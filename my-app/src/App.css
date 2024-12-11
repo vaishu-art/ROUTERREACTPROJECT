@@ -1,0 +1,163 @@
+ /* header.js */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #00334d;
+  color: white;
+  height: 150px;
+   
+}
+.company-name {
+  flex-grow: 1;
+  text-align: left;
+  margin: 0;
+  font-size:50px;
+  font-family:sans-serif;
+  letter-spacing: 3px;
+}
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  background-color: white;
+  color: #777;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #888;
+  color: white;
+}
+
+ 
+
+/* Footer.js */
+.footer {
+  background-color:#00334d;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly; 
+}
+.footer-column {
+  margin: 0 20px;
+  line-height: 1.5;
+}
+.footer-column h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column li {
+  margin-bottom: 8px;
+}
+.footer-column a {
+  color: white;
+  text-decoration: none;
+}
+.footer-column a:hover {
+  text-decoration: underline;
+}
+/* Product.js */
+.card-product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  height: 400px;
+  
+
+}
+.product-card {
+  
+  background: linear-gradient(
+    to right,
+    sandybrown 17%,
+    tan 17% 34%,
+     wheat 34% 51%,
+    peru 51% 68%,
+    palegoldenrod 10%,
+    mistyrose 10%,
+    indianred 10%,
+    gold 20% 
+  );
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+  width: 200px;
+  text-decoration: none;
+  border: 2px solid black;
+}
+.card h2 {
+  font-size: 30px;
+  color: #333;
+  text-decoration: none;
+}
+.product-card:hover{
+  box-shadow: 5px 5px 5px 5px darkgrey;
+  cursor: pointer;
+}
+ 
+/* design products like electronics,jewellary,men's cloth,women's cloth */
+.btn-product{
+  text-align: center;
+  padding: 50px;
+  border-radius: 30px;
+  
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  border: black;
+  border-radius: 50px 20px;
+}
+
+.card {
+  background-image: linear-gradient(to right, orange, violet);
+  border-radius: 5px;
+  margin: 10px;
+  /* padding: 20px; */
+  text-align: center;
+  width: 1000px;
+  height: 450px;
+  padding: 20px 40px ;
+  max-width: 640px;
+}
+
+.card img {
+  width:250px;
+  height: 200px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.card p {
+  font-size: 16px;
+  color: #001b03;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 5px 5px darkgrey;
+  cursor: pointer;
+}
+
+.card-container .btn{
+  background-color: #555;
+  color: white;
+}
+
+  
