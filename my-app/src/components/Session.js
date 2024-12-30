@@ -9,7 +9,7 @@ function Session(){
         // in session to form the layout
         <>
         <Header/> 
-        <link />     
+         
         <section>
           <Outlet/>
         </section>

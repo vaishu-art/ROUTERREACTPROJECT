@@ -6,7 +6,7 @@ function Womenclothing() {
   // const [items, setItems] = useState([]);
   const navigate = useNavigate();
 
-  const [data]=useFetchItems("https://fakestoreapi.com/products/category/women's clothing")
+  const [data]=useFetchItems("https://fakestoreapi.com/products/category/women'sclothing")
 
   // useEffect(() => {
   //   // Fetch data from the API
